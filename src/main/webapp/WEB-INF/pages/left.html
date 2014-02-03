@@ -1,0 +1,56 @@
+
+<!DOCTYPE HTML>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<script type="text/javascript">
+    $(function () {                                      // Когда страница загрузится
+        $('#menu a').each(function () {             // получаем все нужные нам ссылки
+            var location = window.location.href; // получаем адрес страницы
+            var link = this.href;                // получаем адрес ссылки
+            if(location == link) {               // при совпадении адреса ссылки и адреса окна
+                $(this).addClass('active');  //добавляем класс
+            }
+        });
+    });
+</script>
+
+
+<div id="left-container">
+
+    <div id="language">
+        <a href=""><img src="/images/ru.png" class="transition"></a>
+        <a href=""><img src="/images/en.png" class="transition"></a>
+        <a href=""><img src="/images/gr.png" class="transition"></a>
+    </div>
+
+    <div id="logo">
+        <a href="/index"><img src="/images/logo2.png"></a>
+    </div>
+    <div id="menu">
+        <nav>
+            <ul>
+                <a href="/index" class="transition-medium-color"><li>Бронирование</li></a>
+                <a href="/about" class="transition-medium-color"><li>Описание</li></a>
+                <a href="/price" class="transition-medium-color"><li>Цены</li></a>
+                <a href="/photo" class="transition-medium-color"><li>Фотогалерея</li></a>
+                <a href="/service" class="transition-medium-color new"><li><img src="/images/new2.png">Услуги</li></a>
+                <a href="/location" class="transition-medium-color"><li>Как нас найти</li></a>
+                <a href="/contact-us" class="transition-medium-color"><li>Контакты</li></a><br>
+                <a href="/phuket" class="transition-medium-color"><li>О Пхукете</li></a>
+            </ul>
+        </nav>
+    </div>
+    <div id="social">
+        <a href="skype:artem-kolomoets?chat" target="_blank"><img src="/images/sk.png"></a>
+        <a href="mailto:artem@kolomoec.com" target="_blank"><img src="/images/env.png"></a>
+        <a href="http://facebook.com" target="_blank"><img src="/images/fb.png"></a>
+        <a href="http://vk.com" target="_blank"><img src="/images/vk.png"></a>
+    </div>
+</div>
+
+<div id="construction">
+    <img src="/images/constr.png">
+    <hr>
+    <p>Сайт в разработке</p>
+    <p>Site under construction</p>
+
+</div>
