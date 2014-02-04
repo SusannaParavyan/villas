@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/HelloController.java" changelist="1a94f648-35d0-4ab5-a295-5c3cc55a0f7c" time="1390479909315" ignored="false" />
     <file path="/log4j.properties" changelist="1a94f648-35d0-4ab5-a295-5c3cc55a0f7c" time="1390480057988" ignored="false" />
-    <file path="/IndexController.java" changelist="1a94f648-35d0-4ab5-a295-5c3cc55a0f7c" time="1391300269279" ignored="false" />
+    <file path="/IndexController.java" changelist="1a94f648-35d0-4ab5-a295-5c3cc55a0f7c" time="1391456721090" ignored="false" />
     <file path="/index.jsp" changelist="1a94f648-35d0-4ab5-a295-5c3cc55a0f7c" time="1391378549870" ignored="false" />
     <file path="$PROJECT_DIR$/../Land/src/main/webapp/WEB-INF/pages/photogallery.jsp" changelist="1a94f648-35d0-4ab5-a295-5c3cc55a0f7c" time="1390487291890" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="1a94f648-35d0-4ab5-a295-5c3cc55a0f7c" time="1391282395216" ignored="false" />
@@ -56,6 +56,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -92,7 +93,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -111,19 +111,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PayController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/PayController.java">
+      <file leaf-file-name="IndexController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+            <state line="11" column="52" selection-start="421" selection-end="467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaypalService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/PaypalService.java">
+      <file leaf-file-name="PayController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/PayController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="141" selection-start="422" selection-end="422" vertical-scroll-proportion="0.2245283">
+            <state line="12" column="38" selection-start="369" selection-end="369" vertical-scroll-proportion="0.045698926">
               <folding />
             </state>
           </provider>
@@ -132,7 +132,16 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="31" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-0.65384614">
+            <state line="63" column="31" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-24.192308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaypalService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/PaypalService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="80" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,7 +159,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/price.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/photo.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/OrderInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/OrderInfo.java" />
@@ -164,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/PaypalController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/PaypalService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/IndexController.java" />
       </list>
     </option>
   </component>
@@ -235,6 +244,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -434,7 +444,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -656,8 +665,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="728" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -671,6 +680,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -684,7 +694,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -762,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="519" selection-end="519" vertical-scroll-proportion="0.674221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/eva_3/eva/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="76" selection-start="1673" selection-end="1673" vertical-scroll-proportion="0.7579618" />
@@ -821,11 +823,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jquery-ui-1.10.3.custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4776" column="0" selection-start="150577" selection-end="150577" vertical-scroll-proportion="0.9125964">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="4776" column="0" selection-start="150577" selection-end="150577" vertical-scroll-proportion="0.9125964" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jquery-1.10.1.min.js">
@@ -833,9 +831,9 @@
         <state line="2208" column="73" selection-start="131945" selection-end="131945" vertical-scroll-proportion="0.3007712" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PayController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+        <state line="63" column="31" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-24.192308">
           <folding />
         </state>
       </provider>
@@ -847,16 +845,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="31" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-0.65384614">
+        <state line="11" column="52" selection-start="421" selection-end="467" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/PaypalService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="141" selection-start="422" selection-end="422" vertical-scroll-proportion="0.2245283">
+        <state line="21" column="80" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="369" selection-end="369" vertical-scroll-proportion="0.045698926">
           <folding />
         </state>
       </provider>

@@ -18,8 +18,8 @@ public class PaypalService {
     private static final String itemName = "Booking villas";
     private static final String currency = "THB";
     private static final String paymentAction = "Sale";
-    private static final String successUrl = "http://localhost:8080/success";
-    private static final String cancelUrl = "http://localhost:8080/cancel";
+    private static final String successUrl = "http://codekomilfo.jelasticloud.com/success";
+    private static final String cancelUrl = "http://codekomilfo.jelasticloud.com/cancel";
     private static final String version = "104.0";
 
     //API Credential

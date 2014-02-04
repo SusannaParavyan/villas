@@ -7,13 +7,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping(value="/index")
 public class IndexController extends AbstractController{
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(value="/index", method = RequestMethod.GET)
     public String initializeView(ModelMap model) {
         //TODO get booked dates from database
         return "index";
     }
 
-
+    @RequestMapping(value="/")
+    public String init() {
+        return "redirect:index";
+    }
 }
